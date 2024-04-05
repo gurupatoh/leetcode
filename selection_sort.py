@@ -7,3 +7,4 @@ for i in range(len(grades)):
             min_index=j
     grades[i],grades[min_index]=grades[min_index],grades[i]
 print("Sorted list of grades is :",grades)
+

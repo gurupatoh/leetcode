@@ -6,7 +6,7 @@ def palindrome(word):
         return False
     return palindrome(word[1:-1])
 
-word="soop"
+word="ada"
 test_palindrome=palindrome(word)
 print("Test plindrome:",test_palindrome)
 

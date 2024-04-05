@@ -1,4 +1,5 @@
-import math
+import math #import math for the square root
+
 def euclidean_distance(point):
     return math.sqrt(point[0]**2 + point[1]**2)
 
